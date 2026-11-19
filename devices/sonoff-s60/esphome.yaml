@@ -499,7 +499,7 @@ sensor:
             return y;
         - throttle_average: 1s
     voltage:
-      name: "Voltage"
+      name: "Feszültség"
       filters:
         - lambda: |-
             const auto &c = id(calibration);
